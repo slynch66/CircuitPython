@@ -29,6 +29,8 @@ Code goes here
 
 ## CircuitPython_Servo
 
+[source of code](https://learn.adafruit.com/circuitpython-essentials/circuitpython-servo)
+
 ### Description & Code
 
 ```python
