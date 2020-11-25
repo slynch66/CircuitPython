@@ -31,6 +31,7 @@ Code goes here
 [source of code](https://learn.adafruit.com/circuitpython-essentials/circuitpython-servo)
 
 ### Description & Code
+For this assignment we were required to make a servo sweep back and forth from 0 to 180 degrees.
 
 ```python
 import time
