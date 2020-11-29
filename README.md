@@ -12,7 +12,7 @@
 ### Description:
 Hello CircuitPython was an assignment where you setup your Metroid Express along with a code-editing software and your Mac/Chromebook/PC at home. First, [watch the video](https://cvilleschools.instructure.com/courses/31071/assignments/258611?module_item_id=797166) on the assignment. I am using my school Chromebook at home, so I had to install CARET and BEAGLE TERM as my software for editing code/serial monitor. Below is the commented code I used for this assignment.
 
-### Code:
+### [Code](https://github.com/slynch66/CircuitPython/blob/main/Hello_CircuitPython.py):
 ``` python
 import board
 import neopixel
