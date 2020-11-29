@@ -37,6 +37,7 @@ For example, if I want my neopixel to light up as cyan, I can search Google to f
 ## CircuitPython_Servo
 
 [source of code](https://learn.adafruit.com/circuitpython-essentials/circuitpython-servo)
+
 Also shoutout to [Alden's repository](https://github.com/adent11/CircuitPython) for the "While True" statement in my code. 
 
 ### Description
@@ -63,11 +64,6 @@ while True:
         my_servo.angle = angle
         time.sleep(0.05)
 ```
-For the 
-```python 
-While True 
-```
-statement
 
 ### Reflection
 
