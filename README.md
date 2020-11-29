@@ -9,22 +9,32 @@
 
 ## Hello_CircuitPython
 
-### Description & Code
-Description goes here
+### Description:
+Hello CircuitPython was an assignment where you setup your Metroid Express along with a code-editing software and your Mac/Chromebook/PC at home. First, [watch the video](https://cvilleschools.instructure.com/courses/31071/assignments/258611?module_item_id=797166) on the assignment. I am using my school Chromebook at home, so I had to install CARET and BEAGLE TERM as my software for editing code/serial monitor. Below is the commented code I used for this assignment.
 
-Here's how you make code look like code:
+### Commented Code:
+``` python
+import board
+import neopixel
 
-```python
-Code goes here
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
 
+print("Make it red!")           # Makes the serial monitor say "Make it red!" when the LED is red.
+while True:                  # While True is basically the Loop command in Arduino.
+dot.fill((255,0,0))     #This command makes the neopixel LED on the Metroid light up red.
 ```
+### Picture:
+![Image of it working](Images/Hello-CircuitPython-Picture.jpg)
 
-
-### Evidence
-
-### Images
-
-### Reflection
+### Reflection:
+For this assignment I learned how to make the neopixel LED light up as a color. The code for this is part of my commented code. The neopixel works with RGB values, so if you want to make it light up a specific color, find the RGB values of that color using Google and then input them into the command:
+``` python
+dot.fill((0,0,0))
+```
+For example, if I want my neopixel to light up as cyan, I can search Google to find the RGB values of that color (0,255,255). Then just input those values into your command:
+``` python
+ dot.fill((0,255,255))
+```
 
 ## CircuitPython_Servo
 
