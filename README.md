@@ -12,7 +12,7 @@
 ### Description:
 Hello CircuitPython was an assignment where you setup your Metroid Express along with a code-editing software and your Mac/Chromebook/PC at home. First, [watch the video](https://cvilleschools.instructure.com/courses/31071/assignments/258611?module_item_id=797166) on the assignment. I am using my school Chromebook at home, so I had to install CARET and BEAGLE TERM as my software for editing code/serial monitor. Below is the commented code I used for this assignment.
 
-### Commented Code:
+### Code:
 ``` python
 import board
 import neopixel
@@ -23,8 +23,6 @@ print("Make it red!")           # Makes the serial monitor say "Make it red!" wh
 while True:                  # While True is basically the Loop command in Arduino.
 dot.fill((255,0,0))     #This command makes the neopixel LED on the Metroid light up red.
 ```
-### Picture:
-![Image of it working](Images/Hello-CircuitPython-Picture.jpg)
 
 ### Reflection:
 For this assignment I learned how to make the neopixel LED light up as a color. The code for this is part of my commented code. The neopixel works with RGB values, so if you want to make it light up a specific color, find the RGB values of that color using Google and then input them into the command:
@@ -39,10 +37,12 @@ For example, if I want my neopixel to light up as cyan, I can search Google to f
 ## CircuitPython_Servo
 
 [source of code](https://learn.adafruit.com/circuitpython-essentials/circuitpython-servo)
+Also shoutout to [Alden's repository](https://github.com/adent11/CircuitPython) for the "While True" statement in my code. 
 
-### Description & Code
-For this assignment we were required to make a servo sweep back and forth from 0 to 180 degrees.
+### Description
+For this assignment we were required to make a servo sweep back and forth from 0 to 180 degrees using capacitive touch. When you touch one wire, the servo rotates one way, when you touch the other wire, the servo rotates the other way.
 
+### Code
 ```python
 import time
 import board
@@ -63,9 +63,12 @@ while True:
         my_servo.angle = angle
         time.sleep(0.05)
 ```
+For the 
+```python 
+While True 
+```
+statement
 
-### Images
-![Image](Images/ServoImage.jpg)
 ### Reflection
 
 
