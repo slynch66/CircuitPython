@@ -62,7 +62,7 @@ while True:     # This while True statement is saying if I only touch one of the
 ```
 
 ### Reflection
-
+On this assignment I had a lot of trouble with getting the capacitive touch to work. Here is the [website](https://learn.adafruit.com/circuitpython-essentials/circuitpython-cap-touch) for learning how to use capacitive touch with circuitpython. All you have to do after that is figure out what "while True" statements you need to use.
 
 ## CircuitPython_LCD
 
