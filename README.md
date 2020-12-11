@@ -78,3 +78,20 @@ Code goes here
 ### Images
 
 ### Reflection
+
+## CircuitPython_Distance_Sensor
+A lot of my code came from 
+[learn.adafruit.com](https://learn.adafruit.com/ultrasonic-sonar-distance-sensors/python-circuitpython)
+[learn.Alden.com](https://github.com/adent11/CircuitPython)
+### Description & Code
+
+```python
+Code goes here
+
+```
+
+### Evidence
+
+### Images
+
+### Reflection
