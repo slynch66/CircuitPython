@@ -84,7 +84,7 @@ A lot of my code came from
 
 [learn.adafruit.com](https://learn.adafruit.com/ultrasonic-sonar-distance-sensors/python-circuitpython)
 
-[learn.Alden.com](https://github.com/adent11/CircuitPython)
+[learn.Alden.repository](https://github.com/adent11/CircuitPython)
 ### Description & Code
 
 ```python
