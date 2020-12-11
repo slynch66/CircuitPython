@@ -85,12 +85,10 @@ A lot of my code came from
 [learn.adafruit.com](https://learn.adafruit.com/ultrasonic-sonar-distance-sensors/python-circuitpython)
 
 [learn.Alden.repository](https://github.com/adent11/CircuitPython)
-### Description & Code
+### Description
+For this assignment we had to make the neopixel LED on the metro express light up a certain color according to what distance the ultrasonic sensor is reading. Here was our key:
 
-```python
-Code goes here
-
-```
+![doepitydoepdope](Images/Color-spectre.jpg)
 
 ### Evidence
 
