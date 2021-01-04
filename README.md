@@ -66,14 +66,13 @@ On this assignment I had a lot of trouble with getting the capacitive touch to w
 
 ## CircuitPython_LCD
 
-### Description & Code
+### Description
 
 ```python
 Code goes here
 
 ```
-
-### Evidence
+[Full Code](https://github.com/slynch66/CircuitPython/blob/main/CircuitPython_LCD.py)
 
 ### Images
 
